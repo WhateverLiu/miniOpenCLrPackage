@@ -10,5 +10,5 @@ If the above changes are not made, `rhub::check_for_cran()` would freak out over
 
 The package function runs correctly under Windows. I can observe surge in GPU consumption. Currently I don't care whether the function would run correctly under Linux,
 
-..and it doesn't. Just tested it on Ubuntu 16.04 on a virtual machine installed on Windows. Lots of explanations can be made, like did I install my Nvidia driver on Ubuntu?
+..and it doesn't. Just tested it on Ubuntu 16.04 on a virtual machine on Windows. Lots of explanations could be made, like did I install Nvidia driver on Ubuntu? Don't have time investigating it now.
 
