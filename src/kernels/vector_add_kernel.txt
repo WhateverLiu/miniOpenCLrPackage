@@ -1,0 +1,8 @@
+__kernel void vector_add(__global int *A, __global int *B, __global int *C)
+{
+    int i = get_global_id(0);
+    for(int k = 0; k < 1024; ++k)
+    {
+      C[i] = (A[i] + B[i] * C[i]) % (abs(A[i] - B[i]) + 1);
+    }
+}

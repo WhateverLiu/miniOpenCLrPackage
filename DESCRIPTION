@@ -1,0 +1,18 @@
+Package: miniGPU
+Type: Package
+Title: A Minimal Example of Using OpenCL in R Packages
+Version: 0.1.0
+Author: Charlie Wusuo Liu, and authors of OpenCL headers and ICD loader
+Maintainer: Charlie Wusuo Liu <liuwusuo@gmail.com>
+Description: Building OpenCL programs in R packages.
+License: GPL-3
+LazyData: TRUE
+SystemRequirements:
+    GNU make
+Depends:
+    R (>= 3.0.2)
+Imports:
+    Rcpp
+LinkingTo:
+    Rcpp,
+    RViennaCL (>= 1.7.1-1)
